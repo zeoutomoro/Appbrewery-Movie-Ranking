@@ -1,0 +1,76 @@
+*{
+    margin: 0;  
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    font-family: Poppins, sans-serif;
+    background-color: #f4f4f4;
+}
+.container {
+    justify-content: center;
+    align-items: center;
+    width: 80%;
+    margin: 0 auto;
+    padding: 24px;
+    background-color: #819A91;
+    border-radius: 40px;
+    box-shadow: 0 0 10px #555(0, 0, 0, 1);
+}
+
+h1 {
+    text-align: center;
+    color: white;
+    margin-bottom: 20px;
+}
+.container h5 {
+    text-align: center;
+    color: white;
+    margin-top: -20px;
+}
+
+.movies {
+    width: 80%;
+    margin-top: 24px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;   
+}
+
+.movie1, .movie2, .movie3 {
+    width: 30%;
+    margin-bottom: 20px;
+    padding: 16px;
+    background-color: #EEEFE0;
+    border-radius: 16px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+.movie1 h3, .movie2 h3, .movie3 h3 {
+    font-size: 12px;
+    margin-bottom: 10px;
+}
+.movie1 img, .movie2 img, .movie3 img {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: auto;
+    border-radius: 16px;
+    margin-bottom: 10px;
+}
+
+.details{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.movie1 p, .movie2 p, .movie3 p {
+    margin-bottom: 8px;
+    color: #555;
+    font-size: 12px;
+}
+.movie1 p:last-child, .movie2 p:last-child, .movie3 p:last-child {
+    margin-bottom: 0;
+}
+
